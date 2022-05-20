@@ -1,0 +1,42 @@
+﻿  Building 'KernelManager' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  kernelmanager.c
+C:\Users\asher\source\repos\KernelManager\KernelManager\Driver\Utils.h(17,41): warning C4022: PsLookupProcessByProcessId: несоответствие указателя для фактического параметра 1
+C:\Users\asher\source\repos\KernelManager\KernelManager\Driver\Utils.h(13,22): warning C4189: State: локальная переменная инициализирована, но не использована
+C:\Users\asher\source\repos\KernelManager\KernelManager\Driver\Utils.h(51,44): warning C4022: PsLookupProcessByProcessId: несоответствие указателя для фактического параметра 1
+C:\Users\asher\source\repos\KernelManager\KernelManager\Driver\Utils.h(47,28): warning C4101: copyMemory: неиспользованная локальная переменная
+C:\Users\asher\source\repos\KernelManager\KernelManager\Driver\Utils.h(88,44): warning C4022: PsLookupProcessByProcessId: несоответствие указателя для фактического параметра 1
+C:\Users\asher\source\repos\KernelManager\KernelManager\Driver\Utils.h(97,15): warning C4101: old: неиспользованная локальная переменная
+C:\Users\asher\source\repos\KernelManager\KernelManager\Driver\Utils.h(139,44): warning C4245: функция: преобразование "int" в "ULONG", несоответствие типов со знаком и без
+C:\Users\asher\source\repos\KernelManager\KernelManager\Driver\Utils.h(140,18): warning C4245: return: преобразование "int" в "uintptr_t", несоответствие типов со знаком и без
+C:\Users\asher\source\repos\KernelManager\KernelManager\Driver\Utils.h(145,44): warning C4245: функция: преобразование "int" в "ULONG", несоответствие типов со знаком и без
+C:\Users\asher\source\repos\KernelManager\KernelManager\Driver\Utils.h(147,18): warning C4245: return: преобразование "int" в "uintptr_t", несоответствие типов со знаком и без
+C:\Users\asher\source\repos\KernelManager\KernelManager\Driver\Utils.h(150,24): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\asher\source\repos\KernelManager\KernelManager\Driver\Utils.h(151,100): warning C4057: функция: "const char *" отличается от "UCHAR *" по косвенному обращению к слегка разным базовым типам
+C:\Users\asher\source\repos\KernelManager\KernelManager\Driver\Utils.h(152,48): warning C4245: функция: преобразование "int" в "ULONG", несоответствие типов со знаком и без
+C:\Users\asher\source\repos\KernelManager\KernelManager\Driver\Utils.h(153,52): warning C4047: return: "uintptr_t" отличается по уровням косвенного обращения от "PVOID"
+C:\Users\asher\source\repos\KernelManager\KernelManager\Driver\Utils.h(136,18): warning C4996: 'ExAllocatePool': объявлен deprecate
+C:\Users\asher\source\repos\KernelManager\KernelManager\kernelmanager.c(10,44): warning C4100: RegistrationContext: неиспользованный формальный параметр
+C:\Users\asher\source\repos\KernelManager\KernelManager\kernelmanager.c(55,54): warning C4311: приведение типов: усечение указателя из "HANDLE" в "ULONG"
+C:\Users\asher\source\repos\KernelManager\KernelManager\kernelmanager.c(62,5): warning C4033: "ImageCallback" должен возвращать значение
+C:\Users\asher\source\repos\KernelManager\KernelManager\kernelmanager.c(67,5): warning C4033: "ImageCallback" должен возвращать значение
+C:\Users\asher\source\repos\KernelManager\KernelManager\kernelmanager.c(50,11): warning C4101: status: неиспользованная локальная переменная
+C:\Users\asher\source\repos\KernelManager\KernelManager\kernelmanager.c(81,34): warning C4100: DeviceObject: неиспользованный формальный параметр
+C:\Users\asher\source\repos\KernelManager\KernelManager\kernelmanager.c(89,35): warning C4100: DeviceObject: неиспользованный формальный параметр
+C:\Users\asher\source\repos\KernelManager\KernelManager\kernelmanager.c(168,56): warning C4022: PsLookupProcessByProcessId: несоответствие указателя для фактического параметра 1
+C:\Users\asher\source\repos\KernelManager\KernelManager\kernelmanager.c(201,5): warning C4033: "IoControl" должен возвращать значение
+C:\Users\asher\source\repos\KernelManager\KernelManager\kernelmanager.c(98,36): warning C4100: DeviceObj: неиспользованный формальный параметр
+C:\Users\asher\source\repos\KernelManager\KernelManager\kernelmanager.c(104,10): warning C4189: inputLength: локальная переменная инициализирована, но не использована
+C:\Users\asher\source\repos\KernelManager\KernelManager\kernelmanager.c(121,10): warning C4189: inputLength: локальная переменная инициализирована, но не использована
+C:\Users\asher\source\repos\KernelManager\KernelManager\kernelmanager.c(140,10): warning C4189: inputLength: локальная переменная инициализирована, но не использована
+C:\Users\asher\source\repos\KernelManager\KernelManager\kernelmanager.c(163,10): warning C4189: inputLength: локальная переменная инициализирована, но не использована
+C:\Users\asher\source\repos\KernelManager\KernelManager\kernelmanager.c(222,68): warning C4100: RegisterPath: неиспользованный формальный параметр
+C:\Users\asher\source\repos\KernelManager\KernelManager\kernelmanager.c(289,62): warning C4100: RegisterPath: неиспользованный формальный параметр
+C:\Users\asher\source\repos\KernelManager\KernelManager\kernelmanager.c(289,32): warning C4100: DriverObject: неиспользованный формальный параметр
+C:\Users\asher\source\repos\KernelManager\KernelManager\kernelmanager.c(71): warning C4716: ImageCallback: должна возвращать значение
+C:\Users\asher\source\repos\KernelManager\KernelManager\kernelmanager.c(214): warning C4715: IoControl: значение возвращается не при всех путях выполнения
+  KernelManager.vcxproj -> C:\Users\asher\source\repos\KernelManager\x64\Debug\KernelManager.sys
+  Done Adding Additional Store
+  Successfully signed: C:\Users\asher\source\repos\KernelManager\x64\Debug\KernelManager.sys
+  
+  Inf2Cat task was skipped as there were no inf files to process
+  

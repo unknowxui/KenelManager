@@ -236,16 +236,16 @@ NTSTATUS DriverEntry( PDRIVER_OBJECT DriverObject, PUNICODE_STRING RegisterPath 
 
 	//PEPROCESS out;
 	//PsLookupProcessByProcessId( pid, &out );
-r
+
 	//KAPC_STATE state;
 	//KeStackAttachProcess( out, &state );
 
-	uintptr_t win32k_imagebase = get_pid_by_name( "win32kbase.sys" );
+	//uintptr_t win32k_imagebase = get_pid_by_name( "win32kbase.sys" );
 
-	uintptr_t ptr_win32freepool = win32k_imagebase + 0x5D60; // See win32kbase!NtUserSetSysColors. The ptr we swap is a global that
-	Win32FreePool = *( t_Win32FreePool* )ptr_win32freepool;      // holds the address to Win32FreePool
-	write_to_read_only_memory( *( t_Win32FreePool* )ptr_win32freepool, &hook, 8 );
-	log( "Base = %p hook = %p \n", win32k_imagebase, ptr_win32freepool );
+	//uintptr_t ptr_win32freepool = win32k_imagebase + 0x5D60; // See win32kbase!NtUserSetSysColors. The ptr we swap is a global that
+	//Win32FreePool = *( t_Win32FreePool* )ptr_win32freepool;      // holds the address to Win32FreePool
+	//write_to_read_only_memory( *( t_Win32FreePool* )ptr_win32freepool, &hook, 8 );
+	//log( "Base = %p hook = %p \n", win32k_imagebase, ptr_win32freepool );
 
 	//KeUnstackDetachProcess( &state );
 
